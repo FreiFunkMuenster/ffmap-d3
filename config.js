@@ -5,7 +5,7 @@ var ffmapConfig = {
   url:       "",
 
   // visible link in the navigation:
-  sitename:  "muenster.freifunk.net",
+  sitename:  "",
 
   // initial gravity, friction, of the graph at pageload:
   gravity:   0.05,
