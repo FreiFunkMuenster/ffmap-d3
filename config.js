@@ -2,7 +2,7 @@
 
 var ffmapConfig = {
   // link to your main community site:
-  url:       "/",
+  url:       "",
 
   // visible link in the navigation:
   sitename:  "muenster.freifunk.net",
