@@ -42,7 +42,7 @@ header, footer {
 
 .node.marked {
   stroke: #C83771 !important;
-  stroke-width: 5px;
+  fill: #C83771 !important;
 }
 
 .link {
@@ -69,9 +69,15 @@ header, footer {
 #nodeinfo {
   top: 10px;
   left: 10px;
+  z-index: 10;
+}
+
+#nodeinfo a {
+  color: #444;
 }
 
 #nodeinfo button.close {
+  cursor: pointer;
   float: right;
 }
 
@@ -212,6 +218,7 @@ footer a {
 
 #chart {
   background-image: url(gplaypattern.png);
+  overflow: hidden;
 }
 
 .node, .link {
@@ -228,7 +235,7 @@ footer a {
   fill: #333;
 }
 
-.link line {
+.link line, .link path {
   stroke: #777;
   stroke-width: 2.5px;
 }
@@ -263,9 +270,8 @@ footer a {
   stroke: #FF7F0E;
 }
 
-.node.client {
-  stroke: #1F77B4;
-  fill: #1F77B4;
+.clients {
+  fill: rgba(31, 119, 180, 0.6);
 }
 
 .node.legacy {
